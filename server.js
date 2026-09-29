@@ -8,14 +8,14 @@ app.get("/", (req, res) => {
   res.send(`
     <h1>Programación de Vanguardia</h1>
     <h2>Demo DevOps</h2>
-    <p>Versión 2.0</p>
+    <p>Versión 3.0</p>
   `);
 });
 
 app.get("/status", (req, res) => {
   res.json({
     status: "ok",
-    version: "2.0"
+    version: "3.0"
   });
 });
 
